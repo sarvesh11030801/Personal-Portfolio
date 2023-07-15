@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarvesh Personal Portfolio</title>
+</head>
+<body>
+    <div class="container-fluid" id = "home">
+    <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg" id = "navbg">
+            <div class="container-fluid m-1">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse m-1" id="navbarNavAltMarkup">
+                    <ul class = "navbar-nav">
+                        <li class="nav-item ps-2 pe-2 text-center m-1">
+                            <a class="nav-link fw-medium p-1 navitem" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ps-2 pe-2 text-center m-1">
+                            <a class="nav-link fw-medium p-1 navitem" href="#aboutme">About Me</a>
+                        </li>
+                        <div class = "dropdown">
+                            <li class="nav-item ps-2 pe-2 text-center m-1" data-bs-toggle = "dropdown">
+                                <a class="nav-link fw-medium p-1 dropdown-toggle navitem" href="#projects">Projects</a>
+                            </li>
+                            <ul class = "dropdown-menu bg-transparent border-0" style = "margin-top: -10px;">
+                                <li class = "dropdown-item bg-white border border-1 ps-2 pe-2 fw-bold text-center m-1">
+                                    <a href = "https://github.com/sarvesh11030801/Spotify-Clone" class = "nav-link" target = "_blank">Spotify Clone</a>
+                                </li>
+                                <li class = "dropdown-item bg-white border border-1 ps-2 pe-2 fw-bold text-center m-1">
+                                    <a href = "https://github.com/sarvesh11030801/Light-Mode-And-Dark-Mode" class = "nav-link" target = "_blank">Light Mode And Dark Mode</a>
+                                </li>
+                                <li class = "dropdown-item bg-white border border-1 ps-2 pe-2 fw-bold text-center m-1">
+                                    <a href = "https://github.com/sarvesh11030801/Marvel-Website" class = "nav-link" target = "_blank">Marvel Website</a>
+                                </li>
+                                <li class = "dropdown-item bg-white border border-1 ps-2 pe-2 fw-bold text-center m-1">
+                                    <a href = "https://github.com/sarvesh11030801/Spider-Man-Website" class = "nav-link" target = "_blank">Spider-Man Website</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <li class="nav-item ps-2 pe-2 text-center m-1">
+                            <a class="nav-link fw-medium p-1 navitem" href="#contactme">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-nav m-2">
+                <h4>Sarvesh's Portfolio</h4>
+            </div>
+        </nav>
+        <br>
+
+        <!-- Content -->
+        <div class="row" id = "aboutme">
+            <div class="col-sm-6 maincontent1 text-center">
+                <h1>About Me</h1>
+                <h3>I am a Web Developer currently pursuing Engineering at Atharva College Of Engineering.</h3>
+                <p>Hardworking, dedicated and committed to becoming a dependable and valuable team member. Person with a positive attitude and focus on the completion of work.</p>
+                <h4 class = "skli"><u>Skills:</u></h4>
+                <ul class = "skli">
+                    <li class = "spli">HTML</li>
+                    <li class = "spli">CSS</li>
+                    <li class = "spli">JavaScript</li>
+                    <li class = "spli">Bootstrap</li>
+                    <li class = "spli">Python</li>
+                    <li class = "spli">Java</li>
+                    <li class = "spli">PHP</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 maincontent2">
+                <img src = "Images/Main Content.jpg" height = "400" width = "100%" class="rounded float-start">
+            </div>
+        </div>
+        <hr>
+
+        <!-- Projects -->
+        <div class="conatiner-fluid mt-4" id = "projects">
+            <h1>Projects</h1>
+            <div class="row">
+                <div class="col-sm-3"></div>
+
+                <div class="col-sm-3 p-2">
+                    <div class="card shadow-lg border-2 border-dark">
+                        <div class="card-body cardcontent1">
+                            <h5 class="card-title">Spotify Clone</h5>
+                            <p class="card-text"> For songs lover take a look on this Spotify 2.O and enjoy the music.</p>
+                            <h6>Technologies Used</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer cardcontent2">
+                            <div class="btn-group btnhov">
+                                <a href = "https://github.com/sarvesh11030801/Spotify-Clone" target = "_blank">
+                                    <button class = "btn border-0">Click here</button>
+                                    <button class = "btn border-0"><i class="bi bi-file-code-fill"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 p-2">
+                    <div class="card shadow-lg border-2 border-dark">
+                        <div class="card-body cardcontent1">
+                            <h5 class="card-title">Marvel Website</h5>
+                            <p class="card-text">For Marvel fans have latest updates and information regarding MCU.</p>
+                            <h6>Technologies Used</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer cardcontent2">
+                            <div class="btn-group btnhov">
+                                <a href = "https://github.com/sarvesh11030801/Marvel-Website" target = "_blank">
+                                    <button class = "btn border-0">Click here</button>
+                                    <button class = "btn border-0"><i class="bi bi-file-code-fill"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3"></div>
+
+                <div class="col-sm-3"></div>
+
+                <div class="col-sm-3 p-2">
+                    <div class="card shadow-lg border-2 border-dark">
+                        <div class="card-body cardcontent1">
+                            <h5 class="card-title">Spider-Man Website</h5>
+                            <p class="card-text">For Spider-Man Lover have a look on the Spider-Man's life style.</p>
+                            <h6>Technologies Used</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer cardcontent2">
+                            <div class="btn-group btnhov">
+                                <a href = "https://github.com/sarvesh11030801/Spider-Man-Website" target = "_blank">
+                                    <button class = "btn border-0">Click here</button>
+                                    <button class = "btn border-0"><i class="bi bi-file-code-fill"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 p-2">
+                    <div class="card shadow-lg border-2 border-dark">
+                        <div class="card-body cardcontent1">
+                            <h5 class="card-title">For More</h5>
+                            <p class="card-text">For More Projects visit my GitHub Account.</p>
+                        </div>
+                        <div class="card-footer cardcontent2">
+                            <div class="btn-group btnhov">
+                                <a href = "https://github.com/sarvesh11030801?tab=repositories" target = "_blank">
+                                    <button class = "btn border-0">Click here</button>
+                                    <button class = "btn border-0"><i class="bi bi-file-code-fill"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+
+        <!-- Contact Me -->
+        <div class="conatiner-fluid mt-4" id = "contactme">
+            <h1>Contact Me</h1>
+            <br>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder = "tonystark@gmail.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder = "************">
+                        </div>
+                        <button type="submit" class="btn border-0 btnhov">Submit</button>
+                      </form>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Footer -->
+        <div class="container-fluid bg">
+            <div class="row justify-content-center">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2 justify-content-center">
+                    <a href = "https://github.com/sarvesh11030801" target = "_blank"><img src = "Images/GitHub.png" height="50" width="50" class = "footar"></a>
+                    <a href = "https://www.linkedin.com/in/sarvesh-s-arondekar-8b259326b" target = "_blank"><img src = "Images/Linkedin.png" height="50" width="50" class = "footar"></a>
+                </div>
+                <div class="col-sm-5"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+</html>
